@@ -1,0 +1,255 @@
+.ProductDetails{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10vw 20vw;
+    gap: 10vw;
+    margin-top: 70px;
+
+}
+
+.submitReviews{
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.submitReviews:hover {
+  background-color: #374151;
+}
+
+.submitReviews:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .submitReviews{
+    padding: .75rem 1.5rem;
+  }
+}
+
+
+.detailsBlock-3>h1{
+    margin-bottom: 20px;
+}
+ 
+    
+
+
+.ProductDetails>div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+ 
+
+
+}
+
+.CarouselImage{
+    width: 100%;
+    height: 35vw;
+}
+
+
+.detailsBlock-1>h1{
+    color: rgb(8, 125, 0);
+    font-family: Roboto;
+}
+
+.detailsBlock-1>p{
+    color: rgb(4, 51, 1);
+    font-family: Roboto;
+   
+}
+
+.detailsBlock-2{
+    font-family: Roboto;
+    color: rgb(4, 51, 1);
+
+}
+
+.detailsBlock-3{
+
+    font-family: Roboto;
+    color: rgb(4, 51, 1);
+
+}
+
+.detailsBlock-3-1-1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+   
+   
+}
+
+.detailsBlock-3-1-1>button{
+    background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+    
+
+}
+
+.detailsBlock-3-1-1>button:hover{
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+
+
+}
+
+.detailsBlock-3-1-1>input{
+    width: 50px;
+    height: 40px;
+    
+    
+
+}
+
+
+
+
+.AddToCart{
+ 
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 20px;
+}
+
+.AddToCart:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+.redColor{
+    color: red;
+}
+
+.greenColor{
+    color: rgb(26, 86, 18);
+}
+
+.detailsBlock-4{
+    color: rgb(6, 94, 0);
+    font-family: Roboto;
+}
+
+.submitReviews>button{
+    background-color: #13aa52;
+    color: rebeccapurple;
+
+
+}
+
+
+
+@media (min-width: 768px) {
+  .ddToCart {
+    padding: 10px 30px;
+  }
+}
+
+
+
+
+@media (max-width: 800px) {
+    .ProductDetails{
+        flex-direction: column;
+    
+    }
+
+    .detailsBlock-3-1-1>button{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        width: 5vmax;
+        height: 4.5vmax;
+        background-color: rgb(8, 125, 0);
+        border-radius: 10%;
+        border: none;
+        
+    
+    }
+    
+    .detailsBlock-3-1-1>button:hover{
+        background-color: rgb(12, 108, 5);
+    
+    
+    }
+    
+    .detailsBlock-3-1-1>input{
+        width: 5vmax;
+        height: 4vmax;
+        
+        
+    
+    }
+
+    .CarouselImage{
+        width: 100%;
+        height: 45vh;
+      
+     
+      
+     
+    }
+
+   
+    }

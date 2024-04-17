@@ -1,0 +1,206 @@
+.LoginSignUpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(22, 101, 39);
+
+}
+
+.LoginSignUpBox {
+    background-color: white;
+    width: 30vmax;
+    height: 70vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 4px;
+
+}
+
+.login_signUp_toggle {
+    display: flex;
+    height: 3vmax;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+
+
+}
+
+.login_signUp_toggle>p {
+    color: rgba(0, 0, 0, 0.767);
+    cursor: pointer;
+    font-family: Roboto;
+    transition: all 0.5s;
+
+}
+
+.login_signUp_toggle>p:hover {
+    color: rgb(4, 62, 4);
+
+}
+
+.LoginSignUpBox>div>button {
+    background-color: rgb(4, 62, 4);
+    ;
+    height: 3px;
+    width: 50%;
+    border: none;
+    transition: all 0.5s;
+
+}
+
+.loginForm,
+.signUpForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vmax;
+    justify-content: space-evenly;
+    height: 70%;
+    transition: all 0.5s;
+}
+
+.signUpForm {
+    transform: translateY(-100%) translateX(-100vmax);
+}
+
+.loginForm>div,
+.signUpForm>div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.loginForm>div>input,
+.signUpForm>div>input {
+    padding: 1vmax 3vmax;
+    /* padding: 1vmax; */
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.772);
+    border-radius: 4px;
+    font-family: Roboto;
+    outline: none;
+}
+
+.loginForm>div>svg,
+.signUpForm>div>svg {
+    position: absolute;
+    left: 1vmax;
+    font-size: 1.5vmax;
+    color: rgba(0, 0, 0, 0.71);
+    ;
+
+
+}
+
+.loginForm>a,
+.signUpForm>a {
+    color: rgb(20, 52, 6);
+    text-decoration: none;
+
+}
+
+.loginBtn,
+.signUpBtn {
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.registerImage>img{
+    width: 3vmax;
+    border-radius: 0%;
+
+}
+
+
+
+.loginBtn:hover,
+.signUpBtn:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+
+    .loginBtn,
+    .signUpBtn {
+        padding: 10px 30px;
+    }
+}
+
+.shiftToLeft {
+    transform: translateX(-100%);
+}
+
+.shiftToNeutral {
+    transform: translateX(0%);
+}
+
+.shiftToNeutralForm {
+    transform: translateX(0%) translateY(-100%);
+}
+
+.shiftToRight {
+    transform: translateX(100%);
+}
+
+
+@media (max-width: 900px){
+    .LoginSignUpContainer{
+        background-color: white;
+    }
+
+    .LoginSignUpBox{
+        width: 100vw;
+        height: 95vh;
+    }
+    .login_signUp_toggle{
+        height: 5vmax;
+    }
+    .login_signUp_toggle>p{
+        font : 300 1.5vmax "Roboto"
+    }
+
+    .loginForm,.signUpForm{
+        padding: 5vmax;
+
+    }
+    .loginForm>div>input,.signUpForm>div>input{
+        padding: 2.5vmax 5vmax;
+        font: 300 1.7vmax "Roboto";
+    }
+
+    .loginForm>div>svg, .signUpForm>div>svg{
+        font-size: 2.8vmax;
+    }
+
+    .registerImage>img{
+        width: 8vmax;
+        border-radius: 100%;
+
+    }
+
+
+}

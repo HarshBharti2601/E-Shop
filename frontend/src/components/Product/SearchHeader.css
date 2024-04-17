@@ -1,0 +1,63 @@
+.mainDiv1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+   
+   
+    
+}
+.searchBox1{
+    position: absolute;
+    top: 4vw;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+ 
+
+}
+
+.searchBox1>input[type = "text" ]{
+
+    background-color: rgba(0, 0, 0, 0.637);
+    border: none;
+    color: white;
+    padding: 1vmax 2vmax ;
+    width: 80%;
+    outline: none;
+    font-family: Roboto;
+    font-size: 20px;
+    box-sizing: border-box;
+    height: 5vh;
+    border-radius: 2px;
+    
+
+}
+.searchBox1>input[type = "submit" ]{
+
+
+    background-color: rgba(0, 0, 0, 0.637);
+    border: none;
+
+    font-family: Roboto;
+    cursor: pointer;
+    color: white;
+    height: 5vh;
+    border-radius: 2px;
+   
+    width: 20%;
+    box-sizing: border-box;
+    transition: all 0.5s;
+  
+
+  
+   
+
+
+}
+
+.searchBox1>input[type = "submit" ]:hover{
+    background-color: green;
+}
